@@ -100,7 +100,7 @@ class Olark implements \AdrianMejias\Olark\Contracts\OlarkContract
      */
     public function isEnabled(): bool
     {
-        return config('olark.enable', false) === true;
+        return config('olark.enable', true) === true;
     }
 
     /**
@@ -110,7 +110,7 @@ class Olark implements \AdrianMejias\Olark\Contracts\OlarkContract
      */
     public function isDisabled(): bool
     {
-        return config('olark.enable', false) === false;
+        return config('olark.enable', true) === false;
     }
 
     /**

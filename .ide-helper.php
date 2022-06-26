@@ -14,4 +14,6 @@ declare(strict_types=1);
 class Olark extends \AdrianMejias\Olark\Facades\OlarkFacade { }
 class OlarkFacade extends \AdrianMejias\Olark\Olark { }
 class OlarkException extends \Exception { }
+class OlarkSiteIdException extends \AdrianMejias\Olark\Exceptions\OlarkSiteIdException { }
+class OlarkDisabledException extends \AdrianMejias\Olark\Exceptions\OlarkDisabledException {}
 class OlarkServiceProvider extends \Illuminate\Support\ServiceProvider { }
