@@ -1,0 +1,9 @@
+includes:
+    - phpstan.src.neon.dist
+
+parameters:
+    level: 8
+    paths:
+        - src
+    tmpDir: .build/phpstan
+    checkMissingIterableValueType: true
